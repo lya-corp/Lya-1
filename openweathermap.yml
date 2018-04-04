@@ -1,9 +1,8 @@
 ---
   - name: "fr-Get-the-weather"
     signals:
-      - order: "quelle est la météo à {{ location }}"
-      - order: "quelle est la météo de {{ location }}"
       - order: "quelle est la météo a {{ location }}"
+      - order: "quelle est la météo de {{ location }}"
     neurons:
       - say:
           message: "Récupération de la météo en cours Monsieur"
