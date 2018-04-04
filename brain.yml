@@ -43,9 +43,9 @@
             - "I'm listening"
             - "I'm listening to you"
             - "sir?"
-            - "what can i do for you?"
+            - "what can I do for you?"
             - "Speaking"
-            - "how can i help you?"
+            - "how can I help you?"
 
   - name: "on-start-synapse"
     signals: []
@@ -60,6 +60,7 @@
       - say:
           message:
             - "Yeah bro"
-            - "hello how are you to day  Its a joke I dont give a shit of your life"
+            - "hello how are you today"
             - "Yo"
             - "Hello sir"
+            - "Hi"
